@@ -987,7 +987,7 @@ section {
 }
 
 .menu .menu-content {
-  margin-left: 85px;
+  margin-left: auto;
   overflow: hidden;
   display: flex;
   justify-content: space-between;
