@@ -1793,7 +1793,7 @@ section {
   color: #fff;
 }
 
-.button-group {
+/* .button-group {
   list-style: none;
   padding: 0;
   margin: 0;
@@ -1817,7 +1817,46 @@ section {
 
 .filter-active {
   font-weight: bold;
+} */
+
+.button-group {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap; /* Allow buttons to wrap to the next line */
 }
+
+.button-group li {
+  margin: 5px;
+  padding: 10px 20px;
+  background-color: #322e2e;
+  border: 1px solid #cda45e;
+  border-radius: 3px;
+  cursor: pointer;
+  flex: 1; /* Equal width for all buttons */
+  max-width: 150px; /* Limit maximum width */
+  text-align: center; /* Center text */
+}
+
+.button-group li:hover {
+  background-color: #332f2f;
+}
+
+.filter-active {
+  font-weight: bold;
+}
+
+/* Media query for smaller screens */
+@media (max-width: 600px) {
+  .button-group li {
+    flex-basis: calc(50% - 10px); /* 2 buttons per row with margin */
+    max-width: none;
+  }
+}
+
 
 /* 
 # Preloader Styling
