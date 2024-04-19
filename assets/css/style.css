@@ -503,9 +503,7 @@ h6 {
   50% {
       background-image: url("../img/hero-bg.jpg");
   }
-  /* 75% {
-      background-image: url("../img/event-birthday.jpg");
-  } */
+  
   100% {
       background-image: url("../img/hero5-bg.jpeg"); /* Loop back to the first image */
   }
