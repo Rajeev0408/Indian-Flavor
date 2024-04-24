@@ -29,6 +29,7 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-gZVzvH4uO2/jkCzkFkheN2b5Q9XeU9E3Bqz4RZOtMkFOsAR49lTBwDrYLeNnKsz2ew36FjgCdQFc0AYmkw5usA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
   <link href="assets/css/style.css" rel="stylesheet">
+  <link href="assets/css/fixz.css" rel="stylesheet">
 
   <!-- =======================================================
   * Template Name: Restaurantly
@@ -54,37 +55,27 @@
 
   <!-- ======= Top Bar ======= -->
   <div id="topbar" class="d-flex align-items-center fixed-top">
-    <div class="container d-flex justify-content-center justify-content-md-between">
+    <div class="container d-flex fixz">
 
       <div class="topbar-item address">
         <div class="icon">
           <ion-icon name="location-outline" aria-hidden="true"></ion-icon>
+          <i class="bi bi-phone d-flex align-items-center"><span>+1 (250) 344-7088</span></i>
         </div>
 
       </div>
     
-
-      <!-- <div class="contact-info d-flex align-items-center">
-        <i class="bi bi-phone d-flex align-items-center"><span>+1 (250) 344-7088</span></i> -->
-        
-      <!-- </div> -->
-      <div class="social-links mt-2">
-        <i class="bi bi-phone d-flex align-items-center"><span>+1 (250) 344-7088</span></i> 
+      <div class="social-links  mt-2">
+        <!-- <i class="bi bi-phone d-flex align-items-center"><span>+1 (250) 344-7088</span></i>  -->
         <a href="https://twitter.com" class="twitter"><i class="bx bxl-twitter"></i></a>
         <a href="https://www.facebook.com" class="facebook"><i class="bx bxl-facebook"></i></a>
         <a href="https://www.instagram.com" class="instagram"><i class="bx bxl-instagram"></i></a>
         <a href="https://www.linkedin.com" class="linkedin"><i class="bx bxl-linkedin"></i></a>
        
           <a href="Goldenindianflavors@gmail.com" data-toggle="tooltip" title="Goldenindianflavors@gmail.com"><i class="bi bi-envelope"></i></a>
-      
-        
+  
       </div>
-    
       
-
-      <div class="languages d-none d-md-flex align-items-center">
-       
-      </div>
     </div>
   </div>
 
@@ -104,16 +95,16 @@
       <nav id="navbar" class="navbar order-first order-lg-0">
         <ul>
           <li><a class="nav-link scrollto active" href="#hero">Home</a></li>
-          <li><a class="nav-link scrollto" href="aboutus.html">About</a></li>
-          <li><a class="nav-link scrollto" href="menu.html">Menu</a></li>
-          <li><a class="nav-link scrollto" href="contact.html">Contact</a></li>
+          <li><a class="nav-link scrollto" href="./Aboutus.html">About</a></li>
+          <li><a class="nav-link scrollto" href="./Menu.html">Menu</a></li>
+          <li><a class="nav-link scrollto" href="./Contact.html">Contact</a></li>
         </ul>
         <i class="bi bi-list mobile-nav-toggle"></i>
       </nav><!-- .navbar -->
       
 
     </div>
-  </header><!-- End Header -->
+  </header>
 
   <!-- ======= Hero Section ======= -->
   <section id="hero" class="d-flex align-items-center">
@@ -359,10 +350,10 @@
               </p>
               <div class="contact-label">Book Through Call</div>
               <div class="contact-num">+1 (250) 344-7088</div>
-              <a href="/Menu.html" class="btn btn-primary">
+              <!-- <a href="./Menu.html" class="btn btn-primary">
 
                 <span class="text text-2" aria-hidden="true">Read More</span>
-            </a>
+            </a> -->
           </div>
           <div class="about-banner float-right">
               <img src="assets/img/about-banner.jpg" width="570" height="570" alt="about banner" class="w-100 rounded-3" />
@@ -395,8 +386,8 @@
                   <div class="menu-card hover:card">
   
                       <div class="card-banner img-holder">
-                          <img src="./assets/img/menu-3.png" width="100" height="100" loading="lazy" alt="Butternut Pumpkin"
-                              class="img-cover rounded">
+                          <img src="./assets/img/menu/cake.jpg" width="100" height="100" loading="lazy" alt="Butternut Pumpkin"
+                              class="img-cover ">
                       </div>
   
                       <div>
@@ -422,7 +413,7 @@
                 <div class="menu-card hover:card">
 
                     <div class="card-banner img-holder">
-                        <img src="./assets/img/menu-2.png" width="100" height="100" loading="lazy" alt="Lasagne"
+                        <img src="./assets/img/menu/greek-salad.jpg" width="100" height="100" loading="lazy" alt="Lasagne"
                             class="img-cover">
                     </div>
 
@@ -449,7 +440,7 @@
               <div class="menu-card hover:card">
 
                   <div class="card-banner img-holder">
-                      <img src="./assets/img/menu-4.png" width="100" height="100" loading="lazy" alt="Tokusen Wagyu"
+                      <img src="./assets/img/menu/lobster-bisque.jpg" width="100" height="100" loading="lazy" alt="Tokusen Wagyu"
                           class="img-cover">
                   </div>
 
@@ -476,7 +467,7 @@
             <div class="menu-card hover:card">
 
                 <div class="card-banner img-holder">
-                    <img src="./assets/img/menu-5.png" width="100" height="100" loading="lazy" alt="Olivas Rellenas"
+                    <img src="./assets/img/menu/mozzarella.jpg" width="100" height="100" loading="lazy" alt="Olivas Rellenas"
                         class="img-cover">
                 </div>
 
@@ -503,7 +494,7 @@
           <div class="menu-card hover:card">
 
               <div class="card-banner img-holder">
-                  <img src="./assets/img/menu-1.png" width="100" height="100" loading="lazy" alt="Greek Salad"
+                  <img src="./assets/img/menu/lobster-roll.jpg" width="100" height="100" loading="lazy" alt="Greek Salad"
                       class="img-cover">
               </div>
 
@@ -530,7 +521,7 @@
         <div class="menu-card hover:card">
 
             <div class="card-banner img-holder">
-                <img src="./assets/img/menu-6.png" width="100" height="100" loading="lazy" alt="Opu Fish"
+                <img src="./assets/img/menu/bread-barrel.jpg" width="100" height="100" loading="lazy" alt="Opu Fish"
                     class="img-cover">
             </div>
 
@@ -655,7 +646,7 @@
                   "I've been a regular at this restaurant for years, and it never disappoints. The cozy atmosphere and delectable food make every visit memorable. Their homemade pasta dishes, especially the carbonara, are exceptional. If you're looking for a neighborhood gem, look no further than this restaurant."
                   <i class="bx bxs-quote-alt-right quote-icon-right"></i>
                 </p>
-                <img src="assets/img/chef.png" class="testimonial-img" alt="">
+                <img src="assets/img/testimonials/testimonials-1.jpg" class="testimonial-img" alt="">
                 
               </div>
             </div><!-- End testimonial item -->
@@ -667,7 +658,7 @@
                   "Our anniversary celebration at this restaurant was truly memorable. Impeccable service and a chef's tasting menu made our evening special. The wine pairings were perfect, enhancing each dish. The romantic ambiance added to the charm. We'll definitely return for future celebrations and recommend it to others."
                   <i class="bx bxs-quote-alt-right quote-icon-right"></i>
                 </p>
-                <img src="assets/img/chef.png" class="testimonial-img" alt="">
+                <img src="assets/img/testimonials/testimonials-5.jpg" class="testimonial-img" alt="">
                 
               </div>
             </div><!-- End testimonial item -->
@@ -679,7 +670,7 @@
                   "Warm hospitality and a charming ambiance greeted me. The vegetarian-friendly menu impressed with flavorful dishes. I highly recommend the roasted vegetable platter—it’s a delightful treat. I'm already looking forward to my next visit to savor more of their culinary delights."
                   <i class="bx bxs-quote-alt-right quote-icon-right"></i>
                 </p>
-                <img src="assets/img/chef.png" class="testimonial-img" alt="">
+                <img src="assets/img/testimonials/testimonials-2.jpg" class="testimonial-img" alt="">
                 
               </div>
             </div><!-- End testimonial item -->
@@ -691,10 +682,12 @@
                   "This restaurant is a hidden gem! The fusion of flavors in every dish is remarkable. The seafood paella was outstanding. The service was prompt and friendly, adding to the overall experience. I'll be recommending this place to all my fellow food enthusiasts. Don't miss out!"
                   <i class="bx bxs-quote-alt-right quote-icon-right"></i>
                 </p>
-                <img src="assets/img/chef.png" class="testimonial-img" alt="">
+                <img src="assets/img/testimonials/testimonials-3.jpg" class="testimonial-img" alt="">
                 
               </div>
-            </div><!-- End testimonial item -->
+            </div>
+            
+            <!-- End testimonial item -->
 
             <div class="swiper-slide">
               <div class="testimonial-item">
@@ -703,7 +696,7 @@
                   "Our family stumbled upon this restaurant during our city exploration, and it exceeded our expectations. Warm hospitality, great kids' menu, and outstanding seafood linguine left us impressed. We left with full bellies and happy hearts, eager to return on our next visit. Highly recommended for families!"
                   <i class="bx bxs-quote-alt-right quote-icon-right"></i>
                 </p>
-                <img src="assets/img/chef.png" class="testimonial-img" alt="">
+                <img src="assets/img/testimonials/testimonials-4.jpg" class="testimonial-img" alt="">
                 
               </div>
             </div><!-- End testimonial item -->

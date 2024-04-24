@@ -139,7 +139,7 @@ h6 {
 
 .topbar-item.address {
   position: absolute;
-  top: 10px; 
+  /* top: 10px;  */
   left: 10px; 
   display: flex;
   align-items: center;
@@ -233,6 +233,7 @@ h6 {
 /* Media query for responsiveness */
 @media only screen and (max-width: 768px) {
   #topbar {
+    /* margin-top: 10px;  */
     height: auto; 
   }
 
@@ -1912,7 +1913,7 @@ section {
 
 .menu-card .card-banner {
   flex-shrink: 0;
-  border-radius: 50%;
+  border-radius: 20px;
   width: 100px;
   height: 100px; 
 }

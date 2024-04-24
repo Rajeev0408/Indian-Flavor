@@ -1,0 +1,10 @@
+.fixz{
+    display: flex;
+    justify-content: flex-end;
+}
+
+@media only screen and (max-width: 768px) {
+    .fixz{
+        justify-content: flex-end;
+    }
+}
