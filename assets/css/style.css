@@ -1534,10 +1534,10 @@ section {
 }
 
 .img-cover {
-  width: 245px;
+  /* width: 245px;
   height: 336px;
   width: -245px;
-  height: -336px;
+  height: -336px; */
   object-fit: cover;
   
 }
@@ -1927,6 +1927,7 @@ section {
 
 
 .hover\:card .card-banner .img-cover {
+  object-fit: cover;
   transition: transform 0.3s ease; 
 }
 
